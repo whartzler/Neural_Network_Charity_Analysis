@@ -7,7 +7,8 @@ Working with Alphabet Soup a non profit organization to determine which organiza
 ### Data Preprocessing
 The Target Variable: IS_SUCCESSFUL.  This metric clearly shows weither or not the application is successful. 
 The Feature Variables: APPLICATION_TYPE, AFFILIATION CLASSIFICATION, USE_CASE, ORGANIZATION STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
-The removed variables are name and EIN.  These variables do not contribute to the end results if a applicant is successful or not as they are descriptions.
+
+Removed variables are name and EIN.  These variables do not contribute to the end results if a applicant is successful or not as they are descriptions.
 
 ### Compiling, Training, and Evaluating the Model
 #### Initial Model
