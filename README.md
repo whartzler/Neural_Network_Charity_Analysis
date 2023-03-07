@@ -39,5 +39,5 @@ Another model that could solve this classification problem would be Random Fores
 - AlphabetSoupCharity - Initial NN Model
 
 ### Applications
-Tensorflow for NN Modeling
-pandas 
+- Tensorflow for NN Modeling
+- Pandas for data upload and processing
