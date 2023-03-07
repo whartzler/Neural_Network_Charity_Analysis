@@ -19,18 +19,18 @@ Output Layer is sigmoid as we are looking for an output of 1 or 0 identifying ye
 
 
 #### Optimized Model
-- Layer 1 increased units to 123 (41 *3)  to see the effects of increasseing our units
-- Layer 2 62 (half of our layer 1)  
-- Added an additional Layer to see if we can increase the Accuracy
-Tested different activation layers (tanh) to  try to improve output.  
+- Inlcuded the Name column and grouped all names as other with less than 50 counts
+- Layer 1 increased units to 100 
+- Layer 2 decreassed the units to 30
+- Added an additional Layer with 10 units to see if we can increase the Accuracy
+Tested different activation layers but with layer 1 relu, layer 2, 3 & Output were all sigmoid.  
 Increased Epochs to 100 
 
-Overall the target model performance was not achieved through different tests and analysis.  In the optimized model there were many different changes testesd to see if results could improve but could not find a solution.
-There were minimal gains to adding additional layers, increasing epochs, testing different activation layers and even bucketing of larger columns.  
-
+Overall the target model performance was achieved through different tests and analysis.  The primary update to the model to increase optimization was including the Name column rather than removing it,  and not having to few of grouped names.  This allowed a lot more data within our model and allowed us to acheive a 76% accuracy rate. 
+Minimal gains were seen with adding additional units to each layer and activation functions.
 
 ## Summary
-Overall with the data provided we will have an accuracy of 72% of predicting if an applicant will succeed or not.  For this case 72% is very low and this model will not do a good job at making sure Alphabet Soup will be contributing its money to the correct applicants.  
+Overall with the data provided we will have an accuracy of 76% to predict if an applicant will succeed or not.  For this case 76% is still low and this model will not do a good job at making sure Alphabet Soup will be contributing its money to the correct applicants.    
 
 Another model that could solve this classification problem would be Random Forest.  This model similar to the Neural Network Model can easily digest large datasets and can handle outliers and nonlinear data.  For this test we did not see if there were any outliers thats where the Random Forest calculator could improve this model. 
 
