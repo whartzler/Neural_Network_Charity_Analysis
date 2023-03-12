@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview
-Working with Alphabet Soup a non profit organization to determine which organizations are worth donating to and which are to high risk.  We will be Tensorflow to creating a deep network neural network model to determine which organizations are best to receive donations. 
+Working with Alphabet Soup a non profit organization to determine which organizations are worth donating to and which are to high risk.  We will be Tensorflow to creating a deep neural network model to determine which organizations are best to receive donations. 
 
 ## Results
 ### Data Preprocessing
